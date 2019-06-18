@@ -23,7 +23,7 @@ steps:
     projects: '**/*.csproj'
     arguments: '--configuration Release' 
 
-teps:
+steps:
 # ...
 # do this after your tests have run
 - script: dotnet test <test-project> --logger trx --collect "Code coverage"
